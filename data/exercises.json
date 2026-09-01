@@ -1,0 +1,803 @@
+
+[
+  {
+    "id": "daily_001",
+    "title": "Getting to an appointment",
+    "category": "daily_living",
+    "skills": [
+      "planning",
+      "prioritization"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "You have an appointment tomorrow at 10:00 AM.",
+    "questions": [
+      {
+        "id": "daily_001_q1",
+        "text": "What could help you get there on time?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Set an alarm and plan how you will get there.",
+            "reasoningScore": 3,
+            "feedback": "Planning ahead can make it easier to arrive on time."
+          },
+          {
+            "id": "b",
+            "text": "Wait until tomorrow morning to decide.",
+            "reasoningScore": 1,
+            "feedback": "You could still make the appointment, but planning ahead gives you more time to deal with problems."
+          },
+          {
+            "id": "c",
+            "text": "Wait until the appointment time and then decide.",
+            "reasoningScore": 0,
+            "feedback": "It is usually easier to solve travel problems before the appointment time."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced planning ahead."
+  },
+  {
+    "id": "daily_002",
+    "title": "Finding your keys",
+    "category": "daily_living",
+    "skills": [
+      "planning",
+      "information_gathering"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "You need to leave home, but you cannot find your keys.",
+    "questions": [
+      {
+        "id": "daily_002_q1",
+        "text": "What could you try first?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Search the places where you usually keep your keys.",
+            "reasoningScore": 3,
+            "feedback": "Starting with places you commonly use is a practical first step."
+          },
+          {
+            "id": "b",
+            "text": "Immediately assume someone took them.",
+            "reasoningScore": 0,
+            "feedback": "That is an assumption. Checking what you can observe gives you more information."
+          },
+          {
+            "id": "c",
+            "text": "Give up looking.",
+            "reasoningScore": 0,
+            "feedback": "There may be simple places you can check first."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced checking information before making a conclusion."
+  },
+  {
+    "id": "daily_003",
+    "title": "The bus has left",
+    "category": "daily_living",
+    "skills": [
+      "planning",
+      "decision_making"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "You arrive at the bus stop and your bus has already left. You have an appointment in 30 minutes.",
+    "questions": [
+      {
+        "id": "daily_003_q1",
+        "text": "What should you consider first?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Whether another bus or form of transport is available.",
+            "reasoningScore": 3,
+            "feedback": "Looking for another practical option keeps the problem-solving process moving."
+          },
+          {
+            "id": "b",
+            "text": "Give up immediately.",
+            "reasoningScore": 0,
+            "feedback": "There may be alternatives worth checking."
+          },
+          {
+            "id": "c",
+            "text": "Wait without checking anything.",
+            "reasoningScore": 0,
+            "feedback": "Checking available options may help you decide what to do next."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced looking for alternatives."
+  },
+  {
+    "id": "daily_004",
+    "title": "No food at home",
+    "category": "daily_living",
+    "skills": [
+      "information_gathering",
+      "decision_making"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "You have no food at home and ₹200 available.",
+    "questions": [
+      {
+        "id": "daily_004_q1",
+        "text": "What information could help you decide what to do?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "What food you need and how much it costs.",
+            "reasoningScore": 3,
+            "feedback": "Knowing your needs and prices helps you make a practical decision."
+          },
+          {
+            "id": "b",
+            "text": "Buy the first thing you see.",
+            "reasoningScore": 1,
+            "feedback": "This might work, but checking your needs and budget gives you more information."
+          },
+          {
+            "id": "c",
+            "text": "Spend all the money without checking prices.",
+            "reasoningScore": 0,
+            "feedback": "Checking prices helps avoid an unexpected problem."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced gathering information before deciding."
+  },
+  {
+    "id": "daily_005",
+    "title": "Low phone battery",
+    "category": "daily_living",
+    "skills": [
+      "planning",
+      "consequence_prediction"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "Your phone battery is at 5%. You need your phone later today.",
+    "questions": [
+      {
+        "id": "daily_005_q1",
+        "text": "What could you do?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Charge it when possible and think about when you will need it.",
+            "reasoningScore": 3,
+            "feedback": "This considers both the immediate problem and what you will need later."
+          },
+          {
+            "id": "b",
+            "text": "Ignore the battery.",
+            "reasoningScore": 0,
+            "feedback": "The battery may run out before you need the phone."
+          },
+          {
+            "id": "c",
+            "text": "Keep using it without considering the battery.",
+            "reasoningScore": 0,
+            "feedback": "Thinking ahead can help prevent a later problem."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced thinking ahead."
+  },
+  {
+    "id": "money_006",
+    "title": "Several bills",
+    "category": "money",
+    "skills": [
+      "information_gathering",
+      "prioritization"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "You have several bills to pay, but you do not have enough money to pay them all today.",
+    "questions": [
+      {
+        "id": "money_006_q1",
+        "text": "What could you do first?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Check the amounts and due dates.",
+            "reasoningScore": 3,
+            "feedback": "Knowing amounts and deadlines gives you information for prioritizing."
+          },
+          {
+            "id": "b",
+            "text": "Pick one randomly.",
+            "reasoningScore": 0,
+            "feedback": "Random choice does not use the information available."
+          },
+          {
+            "id": "c",
+            "text": "Ignore all of them.",
+            "reasoningScore": 0,
+            "feedback": "Ignoring bills can allow problems to grow."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced prioritizing using information."
+  },
+  {
+    "id": "money_007",
+    "title": "Buying something",
+    "category": "money",
+    "skills": [
+      "decision_making",
+      "consequence_prediction"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "You have ₹500. You want something that costs ₹450.",
+    "questions": [
+      {
+        "id": "money_007_q1",
+        "text": "What else should you consider before buying it?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Whether you need the item and whether you will have enough money for important expenses.",
+            "reasoningScore": 3,
+            "feedback": "A good decision considers both the purchase and what you may need later."
+          },
+          {
+            "id": "b",
+            "text": "Buy it immediately because you have enough for the item.",
+            "reasoningScore": 1,
+            "feedback": "You can afford the item, but other expenses may also matter."
+          },
+          {
+            "id": "c",
+            "text": "Do not think about money at all.",
+            "reasoningScore": 0,
+            "feedback": "Considering your available money helps you make a practical choice."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced thinking about consequences before deciding."
+  },
+  {
+    "id": "money_008",
+    "title": "A friend asks to borrow money",
+    "category": "money",
+    "skills": [
+      "social_problem_solving",
+      "decision_making"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "A friend asks to borrow ₹1,000, but you need your money for your own expenses.",
+    "questions": [
+      {
+        "id": "money_008_q1",
+        "text": "What could you do?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Explain that you cannot afford to lend the money.",
+            "reasoningScore": 3,
+            "feedback": "It is reasonable to consider your own needs and communicate your limit."
+          },
+          {
+            "id": "b",
+            "text": "Give them the money even though you need it.",
+            "reasoningScore": 1,
+            "feedback": "Helping someone may be important, but your own essential needs matter too."
+          },
+          {
+            "id": "c",
+            "text": "Avoid answering without saying anything.",
+            "reasoningScore": 0,
+            "feedback": "A clear response can reduce confusion."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced balancing your needs with another person's request."
+  },
+  {
+    "id": "money_009",
+    "title": "Unexpected bill",
+    "category": "money",
+    "skills": [
+      "information_gathering",
+      "decision_making"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "You receive a bill that you were not expecting.",
+    "questions": [
+      {
+        "id": "money_009_q1",
+        "text": "What should you do before deciding what to do about it?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Check what the bill is for and when it is due.",
+            "reasoningScore": 3,
+            "feedback": "Checking the details gives you information for the next step."
+          },
+          {
+            "id": "b",
+            "text": "Immediately assume it is a mistake.",
+            "reasoningScore": 0,
+            "feedback": "You may not have enough information to know that yet."
+          },
+          {
+            "id": "c",
+            "text": "Ignore it.",
+            "reasoningScore": 0,
+            "feedback": "Checking the bill first can help you decide what to do."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced checking facts before deciding."
+  },
+  {
+    "id": "money_010",
+    "title": "Overspending",
+    "category": "money",
+    "skills": [
+      "reflection",
+      "planning"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "You planned to spend ₹1,000 this week but spent ₹1,400.",
+    "questions": [
+      {
+        "id": "money_010_q1",
+        "text": "What could help next week?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Look at where the extra ₹400 was spent and make a plan.",
+            "reasoningScore": 3,
+            "feedback": "Reviewing what happened can help you make a more useful plan."
+          },
+          {
+            "id": "b",
+            "text": "Decide that budgeting does not work.",
+            "reasoningScore": 0,
+            "feedback": "One difficult week does not tell you whether every plan will work."
+          },
+          {
+            "id": "c",
+            "text": "Ignore what happened.",
+            "reasoningScore": 0,
+            "feedback": "Reviewing what happened gives you information for next time."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced learning from what happened."
+  },
+  {
+    "id": "social_011",
+    "title": "No reply",
+    "category": "social",
+    "skills": [
+      "flexible_thinking",
+      "information_gathering"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "You sent a message to a friend yesterday. They have not replied.",
+    "questions": [
+      {
+        "id": "social_011_q1",
+        "text": "Which statement is most reasonable?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "There could be several reasons they have not replied.",
+            "reasoningScore": 3,
+            "feedback": "There may be several explanations, and you do not have enough information to know which one is true."
+          },
+          {
+            "id": "b",
+            "text": "They definitely do not want to talk to me.",
+            "reasoningScore": 0,
+            "feedback": "That is one possible interpretation, but the available information does not prove it."
+          },
+          {
+            "id": "c",
+            "text": "They are definitely angry with me.",
+            "reasoningScore": 0,
+            "feedback": "You do not have enough information to know how they feel."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced separating facts from assumptions."
+  },
+  {
+    "id": "social_012",
+    "title": "Cancelled plans",
+    "category": "social",
+    "skills": [
+      "flexible_thinking",
+      "social_problem_solving"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "A friend cancels your plans for tomorrow.",
+    "questions": [
+      {
+        "id": "social_012_q1",
+        "text": "What could you do?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ask whether you could arrange another time.",
+            "reasoningScore": 3,
+            "feedback": "Looking for another possibility keeps the situation flexible."
+          },
+          {
+            "id": "b",
+            "text": "Assume the friendship is over.",
+            "reasoningScore": 0,
+            "feedback": "One cancelled plan does not provide enough information for that conclusion."
+          },
+          {
+            "id": "c",
+            "text": "Never speak to them again.",
+            "reasoningScore": 0,
+            "feedback": "There may be other explanations and options."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced considering more than one possible response."
+  },
+  {
+    "id": "social_013",
+    "title": "Neighbour complaint",
+    "category": "social",
+    "skills": [
+      "information_gathering",
+      "social_problem_solving"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "Your neighbour says that you were making too much noise.",
+    "questions": [
+      {
+        "id": "social_013_q1",
+        "text": "What could you do first?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ask what happened and what time the noise was a problem.",
+            "reasoningScore": 3,
+            "feedback": "Getting more information can help you understand the situation."
+          },
+          {
+            "id": "b",
+            "text": "Immediately argue with them.",
+            "reasoningScore": 0,
+            "feedback": "Responding before understanding the problem may make it harder to resolve."
+          },
+          {
+            "id": "c",
+            "text": "Assume they are trying to cause trouble.",
+            "reasoningScore": 0,
+            "feedback": "That is an assumption that may not be supported by the information you have."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced gathering information before responding."
+  },
+  {
+    "id": "social_014",
+    "title": "Misunderstanding",
+    "category": "social",
+    "skills": [
+      "social_problem_solving",
+      "information_gathering"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "Someone says they misunderstood something you told them.",
+    "questions": [
+      {
+        "id": "social_014_q1",
+        "text": "What could you do?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ask what they understood and explain what you meant.",
+            "reasoningScore": 3,
+            "feedback": "Checking what the other person understood can help identify the problem."
+          },
+          {
+            "id": "b",
+            "text": "Assume they are deliberately misunderstanding you.",
+            "reasoningScore": 0,
+            "feedback": "You may not know their reason without more information."
+          },
+          {
+            "id": "c",
+            "text": "Stop communicating.",
+            "reasoningScore": 0,
+            "feedback": "Clarifying the misunderstanding may be a useful option."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced clarifying a misunderstanding."
+  },
+  {
+    "id": "work_015",
+    "title": "Unclear work instruction",
+    "category": "work",
+    "skills": [
+      "help_seeking",
+      "information_gathering"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "Someone at work asks you to complete a task, but you do not understand what they want.",
+    "questions": [
+      {
+        "id": "work_015_q1",
+        "text": "What is a useful next step?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ask them to explain the task or show you an example.",
+            "reasoningScore": 3,
+            "feedback": "Asking for clarification can prevent mistakes and help you learn the task."
+          },
+          {
+            "id": "b",
+            "text": "Pretend you understand.",
+            "reasoningScore": 0,
+            "feedback": "Pretending may lead to avoidable mistakes."
+          },
+          {
+            "id": "c",
+            "text": "Do something completely different.",
+            "reasoningScore": 0,
+            "feedback": "Getting clarification first gives you better information."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced asking for clarification."
+  },
+  {
+    "id": "work_016",
+    "title": "Running late",
+    "category": "work",
+    "skills": [
+      "prioritization",
+      "planning"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "You are getting ready for an appointment and realize you are running late.",
+    "questions": [
+      {
+        "id": "work_016_q1",
+        "text": "What could you consider?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "How long it will take to get there and whether you should contact the person you are meeting.",
+            "reasoningScore": 3,
+            "feedback": "This considers the remaining time and a practical communication step."
+          },
+          {
+            "id": "b",
+            "text": "Ignore the time.",
+            "reasoningScore": 0,
+            "feedback": "The remaining time matters when deciding what to do."
+          },
+          {
+            "id": "c",
+            "text": "Cancel immediately without checking your options.",
+            "reasoningScore": 1,
+            "feedback": "Cancellation may be an option in some situations, but checking what is still possible first may help."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced adjusting a plan when circumstances change."
+  },
+  {
+    "id": "work_017",
+    "title": "Two tasks",
+    "category": "work",
+    "skills": [
+      "prioritization",
+      "decision_making"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "Two tasks need to be completed today. One is due at 12 PM. The other is due at 6 PM.",
+    "questions": [
+      {
+        "id": "work_017_q1",
+        "text": "Which should you consider doing first?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "The task due at 12 PM.",
+            "reasoningScore": 3,
+            "feedback": "The earlier deadline is an important factor when prioritizing."
+          },
+          {
+            "id": "b",
+            "text": "Whichever task looks easiest.",
+            "reasoningScore": 1,
+            "feedback": "Ease can matter, but the deadline is also important."
+          },
+          {
+            "id": "c",
+            "text": "Choose randomly.",
+            "reasoningScore": 0,
+            "feedback": "Using available information is more useful than choosing randomly."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced prioritizing tasks."
+  },
+  {
+    "id": "work_018",
+    "title": "Mistake at work",
+    "category": "work",
+    "skills": [
+      "reflection",
+      "decision_making"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "You notice that you made a mistake at work.",
+    "questions": [
+      {
+        "id": "work_018_q1",
+        "text": "What could you do?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Check what happened and tell the appropriate person if necessary.",
+            "reasoningScore": 3,
+            "feedback": "Understanding the mistake and taking an appropriate corrective step can help resolve it."
+          },
+          {
+            "id": "b",
+            "text": "Hide the mistake.",
+            "reasoningScore": 0,
+            "feedback": "Hiding a problem can make it harder to correct."
+          },
+          {
+            "id": "c",
+            "text": "Pretend nothing happened.",
+            "reasoningScore": 0,
+            "feedback": "Recognizing a problem gives you a chance to address it."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced recognizing and addressing a problem."
+  },
+  {
+    "id": "work_019",
+    "title": "Do not know how",
+    "category": "work",
+    "skills": [
+      "help_seeking",
+      "planning"
+    ],
+    "difficulty": 1,
+    "estimatedMinutes": 5,
+    "scenario": "You have been asked to complete something you do not know how to do.",
+    "questions": [
+      {
+        "id": "work_019_q1",
+        "text": "What could you do?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ask someone appropriate for guidance.",
+            "reasoningScore": 3,
+            "feedback": "Getting guidance is a practical way to learn what to do."
+          },
+          {
+            "id": "b",
+            "text": "Pretend you know how.",
+            "reasoningScore": 0,
+            "feedback": "Pretending can lead to avoidable mistakes."
+          },
+          {
+            "id": "c",
+            "text": "Give up immediately.",
+            "reasoningScore": 0,
+            "feedback": "There may be support or information available."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced help-seeking."
+  },
+  {
+    "id": "work_020",
+    "title": "Solution did not work",
+    "category": "work",
+    "skills": [
+      "reflection",
+      "flexible_thinking"
+    ],
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "scenario": "You tried something to solve a problem, but it did not work.",
+    "questions": [
+      {
+        "id": "work_020_q1",
+        "text": "What could you do next?",
+        "type": "choice",
+        "options": [
+          {
+            "id": "a",
+            "text": "Think about what happened and consider another approach.",
+            "reasoningScore": 3,
+            "feedback": "Reviewing what happened can help you choose a different approach."
+          },
+          {
+            "id": "b",
+            "text": "Decide that nothing can be done.",
+            "reasoningScore": 0,
+            "feedback": "One unsuccessful attempt does not prove that no solution exists."
+          },
+          {
+            "id": "c",
+            "text": "Keep doing exactly the same thing without considering why it did not work.",
+            "reasoningScore": 1,
+            "feedback": "Trying again can sometimes help, but considering what happened may reveal a better approach."
+          }
+        ]
+      }
+    ],
+    "completionMessage": "You practiced reflection and flexible thinking."
+  }
+]
