@@ -1,4 +1,4 @@
-# StepWise V1
+# StepWise
 
 StepWise is a prototype for structured everyday problem-solving practice.
 
